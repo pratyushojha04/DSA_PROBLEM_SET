@@ -83,6 +83,16 @@ int main()
   cout << st.peek() << endl;
   st.pop();
   cout << st.peek() << endl;
+  if (st.isEmpty())
+  {
+    cout<<"Stack is empty "<<endl;
+
+  }
+  else
+  {
+    cout<<"Stack is not empty "<<endl;
+
+  }
 
   return 0;
 }
