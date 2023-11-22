@@ -6,6 +6,7 @@ int main()
 
     int arr[3] = {1, 4, 2};
     int key = 4;
+    
     for (int i = 0; i < n; i++)
     {
         if (arr[i] == key)
