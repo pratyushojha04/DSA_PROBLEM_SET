@@ -2,7 +2,7 @@
 #include<stack>
 using namespace std;
 int main() {
-  string str = "bhai";
+  string str = "sumit";
   stack<char> s;
   for(int i=0;i<str.length();i++){
     char ch = str[i];
@@ -22,4 +22,4 @@ while(!s.empty()){
     
   
   return 0;
-}
+  } 
